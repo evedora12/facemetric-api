@@ -16,3 +16,29 @@ The project uses FastAPI, MediaPipe, OpenCV, NumPy, and Pillow.
 - Identifies roll (how much the head is turned towards the shoulder) and rotates it so that the face is completely vertical.
 - Calculates facial geometry and ratio measurements
 - Provides structured JSON response.
+
+
+## Project Structure
+
+```text
+facemetric-api/
+├── app/
+│   ├── main.py
+│   ├── models/
+│   │   └── responses.py
+│   └── services/
+│       ├── image_validation.py
+│       ├── image_preprocessing.py
+│       ├── landmark_detection.py
+│       ├── face_validation.py
+│       └── facial_measurement_functions.py
+│
+├── models/
+│   └── face_landmarker.task
+│
+├── notebooks/
+│   └── exploratory computer vision work
+│
+├── tests/
+├── requirements.txt
+└── README.md
