@@ -1,12 +1,12 @@
 # FaceMetric API
 
-This is a compputer vision API which uses the MediaPipe facial landmark detection to identify the features of the face, and their coordinates, and therefore geometry facial measurements.
+This is a computer vision API which uses MediaPipe facial landmark detection to identify the features of the face and their coordinates, and therefore facial geometry and facial measurements.
 
-The project uses FastAPI, MediaPipe, OpenCV, NumPy, Pillow.
+The project uses FastAPI, MediaPipe, OpenCV, NumPy, and Pillow.
 
 ## The Process
 
-### In the current v1 the project does the following:
+### In the current v1, the project does the following:
 
 - Image upload validation (rejects invalid images)
 - Processes images into RGB NumPy arrays
